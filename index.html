@@ -25,20 +25,42 @@
       type="text/css"
       href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.css"
     />
+
+    <!-- icon -->
+    <link rel="icon" href="./images/icon.jpeg" />
   </head>
   <body>
     <header>
       <nav>
         <div class="navbar">
           <i class="bx bx-menu"></i>
-          <div class="logo"><a href="#">Logo</a></div>
+          <div class="logo" style="display: flex; align-items: center">
+            <img
+              src="./images/icon.jpeg"
+              alt="Logo"
+              srcset=""
+              style="
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                margin-right: 10px;
+              "
+              class="mb-1"
+            />
+            <a href="./index.html">SILAB JPTE</a>
+          </div>
           <div class="nav-links">
-            <div class="sidebar-logo">
-              <span class="logo-name">Logo</span>
+            <div class="sidebar-logo" style="align-items: center">
+              <img
+                src="./images/icon.jpeg"
+                alt="Logo"
+                style="width: 40px; height: 40px; border-radius: 50%"
+              />
+              <span class="logo-name">SILAB JPTE</span>
               <i class="bx bx-x"></i>
             </div>
             <ul class="links">
-              <li><a href="#">Beranda</a></li>
+              <li><a href="./index.html">Beranda</a></li>
               <li>
                 <a href="#">Seputar Lab</a>
                 <i class="bx bxs-chevron-down htmlcss-arrow arrow"></i>
@@ -69,15 +91,8 @@
                 <a href="#">Login</a>
                 <i class="bx bxs-chevron-down htmlcss-arrow arrow"></i>
                 <ul class="htmlCss-sub-menu sub-menu">
-                  <li><a href="#">Inventaris</a></li>
-                  <li>
-                    <a href="#">Jadwal Penggunaan Lab</a>
-                  </li>
-                  <li><a href="#">Mentoring</a></li>
-                  <li>
-                    <a href="#">Peminjaman Penelitian</a>
-                  </li>
-                  <li><a href="#">Topik TA</a></li>
+                  <li><a href="#">Login</a></li>
+                  <li><a href="#">Registrasi</a></li>
                 </ul>
               </li>
             </ul>
@@ -93,7 +108,7 @@
             <div class="swiper-slide">
               <div
                 class="slide-inner slide-bg-image"
-                data-background="./images/gratisography-augmented-reality-800x525.jpg"
+                data-background="./images/slider/bg1.jpg"
               >
                 <div class="container">
                   <div data-swiper-parallax="300" class="slide-title">
@@ -106,6 +121,54 @@
                       Dapatkan informasi mengenai kegiatan praktikum yang
                       diselenggarakan program studi Sistem Praktikum Jurusan
                       Pendidikan Teknik Elektro
+                    </p>
+                  </div>
+                  <div class="clearfix"></div>
+                  <div data-swiper-parallax="500" class="slide-btns">
+                    <a href="#" class="theme-btn-s2">Menuju Halaman</a>
+                  </div>
+                </div>
+              </div>
+              <!-- end slide-inner -->
+            </div>
+            <div class="swiper-slide">
+              <div
+                class="slide-inner slide-bg-image"
+                data-background="./images/slider/bg2.jpg"
+              >
+                <div class="container">
+                  <div data-swiper-parallax="300" class="slide-title">
+                    <h2 class="whitefont">
+                      Monitoring Laboratoum Sistem praktikum jurusan pendidikan Teknik Elektro
+                    </h2>
+                  </div>
+                  <div data-swiper-parallax="400" class="slide-text">
+                    <p class="whitefont">
+                      Lihat keadaan Laboratorium secara langsung melalui video streaming
+                    </p>
+                  </div>
+                  <div class="clearfix"></div>
+                  <div data-swiper-parallax="500" class="slide-btns">
+                    <a href="#" class="theme-btn-s2">Menuju Halaman</a>
+                  </div>
+                </div>
+              </div>
+              <!-- end slide-inner -->
+            </div>
+            <div class="swiper-slide">
+              <div
+                class="slide-inner slide-bg-image"
+                data-background="./images/slider/bg3.jpg"
+              >
+                <div class="container">
+                  <div data-swiper-parallax="300" class="slide-title">
+                    <h2 class="whitefont">
+                      Absensi Sistem praktikum jurusan pendidikan Teknik Elektro
+                    </h2>
+                  </div>
+                  <div data-swiper-parallax="400" class="slide-text">
+                    <p class="whitefont">
+                      Cek kehadiran praktikum yang sedang atau yang telah dilaksanakan
                     </p>
                   </div>
                   <div class="clearfix"></div>
@@ -131,7 +194,7 @@
               <div class="header-section">
                 <h2 class="title">Fitur</h2>
                 <p class="description">
-                  Berikut beberapa fitur yang dapat diakses
+                  Berikut beberapa fitur yang dapat diakses melalui website Laboratorium Sistem praktikum jurusan pendidikan Teknik Elektro
                 </p>
               </div>
             </div>
@@ -142,11 +205,10 @@
               <div class="single-service">
                 <div class="content">
                   <span class="icon">
-                    <i class="fab fa-battle-net"></i>
+                    <i class="fa fa-bullhorn"></i>
                   </span>
-                  <h3 class="title">Global coverage</h3>
-                  <p class="description"></p>
-                  <a href="#" class="learn-more">Learn More</a>
+                  <h3 class="title">Info Praktikum</h3>
+                  <p class="description">Informasi mengenai peserta praktikum,absensi, nilai, dll.</p>
                 </div>
                 <span class="circle-before"></span>
               </div>
@@ -157,11 +219,11 @@
               <div class="single-service">
                 <div class="content">
                   <span class="icon">
-                    <i class="fab fa-asymmetrik"></i>
+                    <i class="fa fa-comments"></i>
                   </span>
-                  <h3 class="title">It Management</h3>
-                  <p class="description"></p>
-                  <a href="#" class="learn-more">Learn More</a>
+                  <h3 class="title">Topik TA</h3>
+                  <p class="description">Informasi judul TA yang dapat dijadikan referensi</p>
+                  
                 </div>
                 <span class="circle-before"></span>
               </div>
@@ -174,9 +236,9 @@
                   <span class="icon">
                     <i class="fab fa-artstation"></i>
                   </span>
-                  <h3 class="title">Software Development</h3>
-                  <p class="description"></p>
-                  <a href="#" class="learn-more">Learn More</a>
+                  <h3 class="title">Arsip & Dokumentasi</h3>
+                  <p class="description">Download file yang berkaitan dengan laboratorium dan praktikum</p>
+                  
                 </div>
                 <span class="circle-before"></span>
               </div>
@@ -187,11 +249,11 @@
               <div class="single-service">
                 <div class="content">
                   <span class="icon">
-                    <i class="fab fa-500px"></i>
+                    <i class="fa fa-leaf"></i>
                   </span>
-                  <h3 class="title">Brand Strategy</h3>
-                  <p class="description"></p>
-                  <a href="#" class="learn-more">Learn More</a>
+                  <h3 class="title">Inventaris</h3>
+                  <p class="description">Melihat data invertaris laboratorium</p>
+                  
                 </div>
                 <span class="circle-before"></span>
               </div>
@@ -202,11 +264,11 @@
               <div class="single-service">
                 <div class="content">
                   <span class="icon">
-                    <i class="fas fa-chart-pie"></i>
+                    <i class="fa fa-cogs"></i>
                   </span>
-                  <h3 class="title">Business Consulting</h3>
-                  <p class="description"></p>
-                  <a href="#" class="learn-more">Learn More</a>
+                  <h3 class="title">Peminjaman Alat</h3>
+                  <p class="description">Melakukan peminjaman peralatan laboratorium</p>
+                  
                 </div>
                 <span class="circle-before"></span>
               </div>
@@ -217,11 +279,11 @@
               <div class="single-service">
                 <div class="content">
                   <span class="icon">
-                    <i class="fas fa-laptop-code"></i>
+                    <i class="fa fa-heart"></i>
                   </span>
-                  <h3 class="title">Website Design</h3>
-                  <p class="description"></p>
-                  <a href="#" class="learn-more">Learn More</a>
+                  <h3 class="title">Dan Lain-lain</h3>
+                  <p class="description">Masih ada fitur lain yang dapat diakses</p>
+                  
                 </div>
                 <span class="circle-before"></span>
               </div>
@@ -238,7 +300,7 @@
               <div class="header-section">
                 <h2 class="title">Monitoring</h2>
                 <p class="description">
-                  Menampilkan secara langsung keadaan ruangan lab
+                  Menampilkan secara langsung keadaan ruangan Laboratorium Sistem praktikum jurusan pendidikan Teknik Elektro
                 </p>
               </div>
             </div>
@@ -295,8 +357,7 @@
               <div class="header-section">
                 <h2 class="title">Praktikum</h2>
                 <p class="description">
-                  Informasi kegiatan sistem praktikum jurusan Pendidikan Teknik
-                  Elektro
+                  Informasi kegiatan Sistem praktikum jurusan pendidikan Teknik Elektro
                 </p>
               </div>
             </div>
@@ -306,12 +367,12 @@
             <div class="col-md-6 col-lg-4">
               <div class="single-service">
                 <div class="content">
-                  <span class="icon">
-                    <i class="fab fa-battle-net"></i>
+                  <span class="icon" style="background-color: transparent;">
+                    <img class="img-responsive" src="./images/services/services1.png">
                   </span>
-                  <h3 class="title">Global coverage</h3>
-                  <p class="description"></p>
-                  <a href="#" class="learn-more">Learn More</a>
+                  <h3 class="title">PEMDAS</h3>
+                  <p class="description">Pemrograman Dasar</p>
+                  
                 </div>
                 <span class="circle-before"></span>
               </div>
@@ -321,12 +382,12 @@
             <div class="col-md-6 col-lg-4">
               <div class="single-service">
                 <div class="content">
-                  <span class="icon">
-                    <i class="fab fa-asymmetrik"></i>
+                  <span class="icon" style="background-color: transparent;">
+                    <img class="img-responsive" src="./images/services/services2.png">
                   </span>
-                  <h3 class="title">It Management</h3>
-                  <p class="description"></p>
-                  <a href="#" class="learn-more">Learn More</a>
+                  <h3 class="title">ORKOM</h3>
+                  <p class="description">Organisasi & Arsitektur Komputer</p>
+                  
                 </div>
                 <span class="circle-before"></span>
               </div>
@@ -336,12 +397,12 @@
             <div class="col-md-6 col-lg-4">
               <div class="single-service">
                 <div class="content">
-                  <span class="icon">
-                    <i class="fab fa-artstation"></i>
+                  <span class="icon" style="background-color: transparent;">
+                    <img class="img-responsive" src="./images/services/services3.png">
                   </span>
-                  <h3 class="title">Software Development</h3>
-                  <p class="description"></p>
-                  <a href="#" class="learn-more">Learn More</a>
+                  <h3 class="title">PRC</h3>
+                  <p class="description">Pemrograman Robot Cerdas</p>
+                  
                 </div>
                 <span class="circle-before"></span>
               </div>
@@ -351,12 +412,12 @@
             <div class="col-md-6 col-lg-4">
               <div class="single-service">
                 <div class="content">
-                  <span class="icon">
-                    <i class="fab fa-500px"></i>
+                  <span class="icon" style="background-color: transparent;">
+                    <img class="img-responsive" src="./images/services/services4.png">
                   </span>
-                  <h3 class="title">Brand Strategy</h3>
-                  <p class="description"></p>
-                  <a href="#" class="learn-more">Learn More</a>
+                  <h3 class="title">JARKOM</h3>
+                  <p class="description">Jaringan Komputer</p>
+                  
                 </div>
                 <span class="circle-before"></span>
               </div>
@@ -366,12 +427,12 @@
             <div class="col-md-6 col-lg-4">
               <div class="single-service">
                 <div class="content">
-                  <span class="icon">
-                    <i class="fas fa-chart-pie"></i>
+                  <span class="icon" style="background-color: transparent;">
+                    <img class="img-responsive" src="./images/services/services5.png">
                   </span>
-                  <h3 class="title">Business Consulting</h3>
-                  <p class="description"></p>
-                  <a href="#" class="learn-more">Learn More</a>
+                  <h3 class="title">REKWEB</h3>
+                  <p class="description">Rekayasa Web</p>
+                  
                 </div>
                 <span class="circle-before"></span>
               </div>
@@ -381,12 +442,57 @@
             <div class="col-md-6 col-lg-4">
               <div class="single-service">
                 <div class="content">
-                  <span class="icon">
-                    <i class="fas fa-laptop-code"></i>
+                  <span class="icon" style="background-color: transparent;">
+                    <img class="img-responsive" src="./images/services/services6.png">
                   </span>
-                  <h3 class="title">Website Design</h3>
-                  <p class="description"></p>
-                  <a href="#" class="learn-more">Learn More</a>
+                  <h3 class="title">JST</h3>
+                  <p class="description">Jaringan Syaraf Tiruan</p>
+                  
+                </div>
+                <span class="circle-before"></span>
+              </div>
+            </div>
+            <!-- / End Single Service -->
+             <!-- Single Service -->
+            <div class="col-md-6 col-lg-4">
+              <div class="single-service">
+                <div class="content">
+                  <span class="icon" style="background-color: transparent;">
+                    <img class="img-responsive" src="./images/services/services7.png">
+                  </span>
+                  <h3 class="title">BASDAT</h3>
+                  <p class="description">Basis Data</p>
+                  
+                </div>
+                <span class="circle-before"></span>
+              </div>
+            </div>
+            <!-- / End Single Service -->
+            <!-- Single Service -->
+            <div class="col-md-6 col-lg-4">
+              <div class="single-service">
+                <div class="content">
+                  <span class="icon" style="background-color: transparent;">
+                    <img class="img-responsive" src="./images/services/services8.png">
+                  </span>
+                  <h3 class="title">PBD</h3>
+                  <p class="description">Pemrograman Basis Data</p>
+                  
+                </div>
+                <span class="circle-before"></span>
+              </div>
+            </div>
+            <!-- / End Single Service -->
+            <!-- Single Service -->
+            <div class="col-md-6 col-lg-4">
+              <div class="single-service">
+                <div class="content">
+                  <span class="icon" style="background-color: transparent;">
+                    <img class="img-responsive" src="./images/services/services9.png">
+                  </span>
+                  <h3 class="title">PBO</h3>
+                  <p class="description">Pemrograman Berorientasi Objek</p>
+                  
                 </div>
                 <span class="circle-before"></span>
               </div>
@@ -402,25 +508,25 @@
         <div class="row align-items-center">
           <!-- Copyright -->
           <div class="col-md-6 text-center text-md-start mb-2 mb-md-0">
-            &copy; 2025 Your Company. All rights reserved.
+            &copy; 2025 SILAB JPTE All rights reserved.
           </div>
           <!-- Menu -->
           <div class="col-md-6 text-center text-md-end">
             <ul class="list-inline m-0">
               <li class="list-inline-item">
-                <a href="#" class="text-white text-decoration-none">Home</a>
+                <a href="./index.html" class="text-white text-decoration-none">Beranda</a>
               </li>
               <li class="list-inline-item">|</li>
               <li class="list-inline-item">
-                <a href="#" class="text-white text-decoration-none">About</a>
+                <a href="#" class="text-white text-decoration-none">Inventaris</a>
               </li>
               <li class="list-inline-item">|</li>
               <li class="list-inline-item">
-                <a href="#" class="text-white text-decoration-none">Services</a>
+                <a href="#" class="text-white text-decoration-none">Absensi</a>
               </li>
               <li class="list-inline-item">|</li>
               <li class="list-inline-item">
-                <a href="#" class="text-white text-decoration-none">Contact</a>
+                <a href="#" class="text-white text-decoration-none">Register</a>
               </li>
             </ul>
           </div>
